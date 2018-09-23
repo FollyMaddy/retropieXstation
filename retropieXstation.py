@@ -7,6 +7,10 @@
 # Dependencies : 
 # This program only works if RetroPie is installed on your computer.
 # Also make sure you have installed the desired python-modules.
+# How to run :
+# Make the program executable, dubbleclick and choose open in terminal.
+# Run it from the terminal with : python retropieXstation.py
+# Or run it from the terminal with : ./retropieXstation.py
 #
 # Author : Folkert van der Meulen
 # Date   : 23/08/2018
@@ -32,7 +36,6 @@ import Tkinter as tk
 import tkFileDialog
 import os
 
-# select romdirectory and select emulator type
 # get filename for use in commandline
 root = tk.Tk()
 root.withdraw()
