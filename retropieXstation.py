@@ -1,11 +1,15 @@
 #!/usr/bin/python
 #
 # Program : retropieXstation.py
-# Use : retropieXstation is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
-# Dependencies : This program only works if RetroPie is installed on your computer
+# Version : 1.3
+# Use : 
+# retropieXstation is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
+# Dependencies : 
+# This program only works if RetroPie is installed on your computer.
+# Also make sure you have installed the desired python-modules.
 #
 # Author : Folkert van der Meulen
-# Date   : 21/08/2018
+# Date   : 23/08/2018
 #
 # Copyright 2018 Folkert van der Meulen
 #
@@ -29,15 +33,12 @@ import tkFileDialog
 import os
 
 # select romdirectory and select emulator type
-root = tk.Tk()
-root.withdraw()
-DIR = tkFileDialog.askdirectory(initialdir = '~/RetroPie/roms' , title='Choose ROM-directory / System')
-# cut system type from directory structure
-SYSTEM = DIR.split("/", DIR.count("/"))[5]
 # get filename for use in commandline
 root = tk.Tk()
 root.withdraw()
-ROM = tkFileDialog.askopenfilename(initialdir = '%s' %(DIR), title='Load %s FILE' %(SYSTEM)) 
+ROM = tkFileDialog.askopenfilename(initialdir = '~/RetroPie/roms' , title='Load RetroPie Game') 
+# cut system type from directory structure for use in commandline
+SYSTEM = ROM.split("/", ROM.count("/"))[5]
 # create commandline as string (insert system type and filename to run)
 cmd_run_emu = '/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ %s "%s"' %(SYSTEM,ROM)
 # run command
