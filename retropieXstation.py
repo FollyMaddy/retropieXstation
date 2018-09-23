@@ -9,7 +9,7 @@
 # Also make sure you have installed the desired python-modules.
 # How to run :
 # Make the program executable, dubbleclick and choose open in terminal.
-# Run it from the terminal with : python retropieXstation.py
+# You can run it also directly from the terminal with : python retropieXstation.py
 # Or run it from the terminal with : ./retropieXstation.py
 #
 # Author : Folkert van der Meulen
