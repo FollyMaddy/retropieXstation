@@ -3,6 +3,20 @@ use :
 
 retropieXstation.py is a simple project to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
 
+dependancies :
+
+This program only works if RetroPie is installed on your computer.
+
+Also make sure you have installed the desired python-modules.
+
+How to run :
+
+Make the program executable, dubbleclick and choose open in terminal.
+
+You can run it also directly from the terminal with : python retropieXstation.py
+
+Or run it from the terminal with : ./retropieXstation.py
+
 # retropieXstation-800x600.py
 Use : 
 
@@ -19,3 +33,17 @@ With this program you bypass this problem !
 - When running the emulator it changes to 800x600;
 
 - It changes back to the standard resolution if you stop the emulator.
+
+dependancies :
+
+This program only works if RetroPie is installed on your computer.
+
+Also make sure you have installed the desired python-modules.
+
+How to run :
+
+Make the program executable, dubbleclick and choose open in terminal.
+
+You can run it also directly from the terminal with : python retropieXstation-800x600.py
+
+Or run it from the terminal with : ./retropieXstation-800x600.py
