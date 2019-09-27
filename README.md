@@ -54,7 +54,9 @@ With this program you bypass this problem !
 
 - It get's the standard resolution;
 
-- When running the emulator it changes to 800x600;
+- When running the emulator it changes to 800x600 ;
+
+( An exception is made for the system 'pc' .sh scripts. It will start in standard resolution);
 
 - It changes back to the standard resolution if you stop the emulator.
 
