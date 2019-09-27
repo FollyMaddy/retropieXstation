@@ -68,7 +68,7 @@ EXTENSION=ROM.split(".", ROM.count("."))[-1]
 # only execute if resolution of 800x600 is possible
 if EMU_RESOLUTION == '800x600':
 
-    #make an exeption for system 'pc' .sh scripts, do not change resolution
+    #make an exception for system 'pc' .sh scripts, do not change resolution
     if EXTENSION == 'sh' and SYSTEM == 'pc':
         EMU_RESOLUTION = STANDARD_RESOLUTION
 
