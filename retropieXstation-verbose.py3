@@ -2,7 +2,7 @@
 #
 # Program : retropieXstation-verbose.py3
 # Version : 1
-# Use : 
+# Use :
 # retropieXstation-verbose is a program to start ROMS of RetroPie in verbose mode from your windows desktop enviroment (X).
 # Sometimes roms or emulators do not work, This program is created to find the problems.
 # Beware : It only works with retroarch libretro cores and zip files are not supported !

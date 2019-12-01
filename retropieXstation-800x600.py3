@@ -5,7 +5,7 @@
 # Resolution is not changed when starting an .sh script from the system 'pc'
 # Version: 2.1
 # Program made simpler
-# Version : 2.0 
+# Version : 2.0
 # If display port is not found then use another cmd line to force different resolution.
 # (If resolution is not possible try another monitor and/or paste and use file /usr/share/xorg.conf.d/use-vesa.conf)(reboot is necessary)
 #
