@@ -5,15 +5,20 @@
 #
 
 # retropieXstation.py (python2.7 version) / retropieXstation.py3 (python3 version)
+
 use :
 
 retropieXstation.py is a simple project to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
+
+#
 
 dependancies :
 
 This program only works if RetroPie is installed on your computer.
 
 Also make sure you have installed the desired python-modules.
+
+#
 
 How to run :
 
@@ -33,11 +38,15 @@ Sometimes roms or emulators do not work. This program is created to find the pro
 
 Beware : It only works with retroarch libretro cores and zip files are not supported !
 
+#
+
 Dependencies : 
 
 This program only works if RetroPie is installed on your computer.
 
 Also make sure you have installed the desired python-modules.
+
+#
 
 How to run :
 
@@ -47,7 +56,7 @@ You can run it also directly from the terminal with : python retropieXstation-ve
 
 Or run it from the terminal with : ./retropieXstation-verbose.py
 
-# retropieXstation-800x600.py (python2.7 version) / retropieXstation-800x600.py (python3 version)
+# retropieXstation-800x600.py (python2.7 version) / retropieXstation-800x600.py3 (python3 version)
 Use : 
 
 retropieXstation-resolution is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
@@ -66,11 +75,15 @@ With this program you bypass this problem !
 
 - It changes back to the standard resolution if you stop the emulator.
 
+#
+
 dependancies :
 
 This program only works if RetroPie is installed on your computer.
 
 Also make sure you have installed the desired python-modules.
+
+#
 
 How to run :
 
