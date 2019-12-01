@@ -28,6 +28,8 @@ You can run it also directly from the terminal with : python retropieXstation.py
 
 Or run it from the terminal with : ./retropieXstation.py
 
+#
+
 # retropieXstation-verbose.py (python2.7 version) / retropieXstation-verbose.py3 (python3 version)
 
 Use : 
@@ -56,7 +58,10 @@ You can run it also directly from the terminal with : python retropieXstation-ve
 
 Or run it from the terminal with : ./retropieXstation-verbose.py
 
+#
+
 # retropieXstation-800x600.py (python2.7 version) / retropieXstation-800x600.py3 (python3 version)
+
 Use : 
 
 retropieXstation-resolution is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
@@ -92,3 +97,5 @@ Make the program executable, dubbleclick and choose open in terminal.
 You can run it also directly from the terminal with : python retropieXstation-800x600.py
 
 Or run it from the terminal with : ./retropieXstation-800x600.py
+
+#
