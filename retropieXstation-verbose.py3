@@ -81,5 +81,5 @@ for command in lines:
       
 # read variable exit, after input the program stops 
 print("\n")
-exit = raw_input("enter to exit :")
+exit = input("enter to exit :")
 

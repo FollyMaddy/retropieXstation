@@ -13,7 +13,7 @@
 # Or run it from the terminal with : ./retropieXstation.py
 #
 # Author : Folkert van der Meulen
-# Date   : 13/10/2019
+# Date   : 02/12/2019
 #
 # Copyright 2019 Folkert van der Meulen
 #
