@@ -1,3 +1,7 @@
+# Now there is a bash alternative, see for more info on :
+
+# https://github.com/FollyMaddy/RetroRun
+
 #
 
 # Pyhthon3 versions should work now !
