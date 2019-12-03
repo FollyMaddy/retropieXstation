@@ -28,7 +28,7 @@
 # Or run it from the terminal with : ./retropieXstation-800x600.py
 #
 # Author : Folkert van der Meulen
-# Date   : 02/12/2019
+# Date   : 03/12/2019
 #
 # Copyright 2019 Folkert van der Meulen
 #
@@ -57,6 +57,12 @@ DISPLAY_PORT = subprocess.Popen('xrandr | grep "connected primary"| cut -d" " -f
 STANDARD_RESOLUTION = subprocess.Popen('xrandr | grep "*" | cut -d" " -f4',shell=True, stdout=subprocess.PIPE).communicate()[0][:-1]
 EMU_RESOLUTION = subprocess.Popen('xrandr | grep "800x600" | cut -d" " -f4',shell=True, stdout=subprocess.PIPE).communicate()[0][:-1]
 
+#normal in python3, bytenotation => b'   '
+#print(STANDARD_RESOLUTION)
+
+#repress bytenotation => b'   ' (used to convert python2 program to python3)
+#print(repr(STANDARD_RESOLUTION)[2:-1])
+
 # get filename for use in commandline
 root = tk.Tk()
 root.withdraw()
@@ -66,7 +72,7 @@ SYSTEM = ROM.split("/", ROM.count("/"))[5]
 EXTENSION=ROM.split(".", ROM.count("."))[-1]
 
 # only execute if resolution of 800x600 is possible
-if EMU_RESOLUTION == '800x600':
+if EMU_RESOLUTION == b'800x600':
 
     #make an exception for system 'pc' .sh scripts, do not change resolution
     if EXTENSION == 'sh' and SYSTEM == 'pc':
@@ -75,17 +81,17 @@ if EMU_RESOLUTION == '800x600':
     # if a diplay port is not found then use execute these lines, good chance it will work
     if not DISPLAY_PORT:
        # create commandline as string (change resolution for old pc's, insert system type and filename to run)
-       cmd_run_emu = 'xrandr -s "%s" && /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ %s "%s"' %(EMU_RESOLUTION,SYSTEM,ROM)
+       cmd_run_emu = 'xrandr -s "%s" && /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ %s "%s"' %(repr(EMU_RESOLUTION)[2:-1],SYSTEM,ROM)
        # run command
        os.system(cmd_run_emu)
-       # change to standard resolution
-       os.system('xrandr -s "%s"' %(STANDARD_RESOLUTION)) 
+       # change to standard resolution    
+       os.system('xrandr -s "%s"' %(repr(STANDARD_RESOLUTION)[2:-1]))
    
     # if a diplay port is found then use execute these lines, it is more precise but will not work if the display port is not found
     else:
        # create commandline as string (change resolution for old pc's, insert system type and filename to run)
-       cmd_run_emu = 'xrandr --output %s --mode "%s" && /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ %s "%s"' %(DISPLAY_PORT,EMU_RESOLUTION,SYSTEM,ROM)
+       cmd_run_emu = 'xrandr --output %s --mode "%s" && /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ %s "%s"' %(repr(DISPLAY_PORT)[2:-1],repr(EMU_RESOLUTION)[2:-1],SYSTEM,ROM)
        # run command
        os.system(cmd_run_emu)
        # change to standard resolution
-       os.system('xrandr --output %s --mode "%s"' %(DISPLAY_PORT,STANDARD_RESOLUTION)) 
+       os.system('xrandr --output %s --mode "%s"' %(repr(DISPLAY_PORT)[2:-1],repr(STANDARD_RESOLUTION)[2:-1])) 
