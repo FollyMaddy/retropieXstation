@@ -1,6 +1,6 @@
 #
 
-# Pyhthon3 versions should work but are not tested yet !
+# Pyhthon3 versions should work now !
 
 #
 
