@@ -102,4 +102,33 @@ You can run it also directly from the terminal with : python retropieXstation-80
 
 Or run it from the terminal with : ./retropieXstation-800x600.py
 
-#
+
+# use-vesa.conf
+
+(for use on X86 computers)
+
+If the resolution 800x600 is not possible with RetroRun :
+
+Try another monitor and/or paste and use the file /usr/share/xorg.conf.d/use-vesa.conf .
+
+A reboot is necessary to turn the computer into VESA mode, if file is used.
+
+Remove the file if you want to turn back to the normal state.
+
+
+With Debian Buster I found that this solution did not work ! :
+
+If xrandr is used and you get WAYLAND0 connected then,
+
+"uncommented" a line in deamon.conf (can also be another file check with (cat .))
+
+sudo nano /etc/gdm3/daemon.conf
+
+#WaylandEnable=false
+
+change to :
+
+WaylandEnable=false
+
+
+
