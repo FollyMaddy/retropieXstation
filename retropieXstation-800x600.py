@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "tk",
+# ]
+# ///
+
 #
-# Program : retropieXstation-800x600.py3
+# Program : retropieXstation-800x600.py
+# Version: 2.3
+# Add metadata for running script with uv
 # Version: 2.2
 # Resolution is not changed when starting an .sh script from the system 'pc'
 # Version: 2.1
