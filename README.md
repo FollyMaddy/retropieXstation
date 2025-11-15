@@ -8,7 +8,7 @@
 
 #
 
-# retropieXstation.py (python2.7 version) / retropieXstation.py3 (python3 version)
+# retropieXstation.py (python3 version) python2/retropieXstation.py (python2.7 version)
 
 use :
 
@@ -28,13 +28,32 @@ How to run :
 
 Make the program executable, dubbleclick and choose open in terminal.
 
-You can run it also directly from the terminal with : python retropieXstation.py
+You can run it also directly from the terminal with : 
 
-Or run it from the terminal with : ./retropieXstation.py
+```
+python retropieXstation.py
+```
+
+Or run it from the terminal with : 
+
+```
+./retropieXstation.py
+```
+
+With `uv`, if installed : 
+
+```
+uv run retropieXstation.py
+```
+
+or online :
+```
+curl https://raw.githubusercontent.com/FollyMaddy/retropieXstation/refs/heads/master/retropieXstation.py|uv run -
+```
 
 #
 
-# retropieXstation-verbose.py (python2.7 version) / retropieXstation-verbose.py3 (python3 version)
+# retropieXstation-verbose.py (python3 version) python2/retropieXstation-verbose.py (python2.7 version)
 
 Use : 
 
@@ -58,17 +77,36 @@ How to run :
 
 Make the program executable, dubbleclick and choose open in terminal.
 
-You can run it also directly from the terminal with : python retropieXstation-verbose.py
+You can run it also directly from the terminal with : 
 
-Or run it from the terminal with : ./retropieXstation-verbose.py
+```
+python retropieXstation-verbose.py
+```
+
+Or run it from the terminal with : 
+
+```
+./retropieXstation-verbose.py
+```
+
+With `uv`, if installed : 
+
+```
+uv run retropieXstation-verbose.py
+```
+
+or online :
+```
+curl https://raw.githubusercontent.com/FollyMaddy/retropieXstation/refs/heads/master/retropieXstation.py|uv run -
+```
 
 #
 
-# retropieXstation-800x600.py (python2.7 version) / retropieXstation-800x600.py3 (python3 version)
+# retropieXstation-800x600.py (python3 version) python2/retropieXstation-800x600.py (python2.7 version)
 
 Use : 
 
-retropieXstation-resolution is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
+retropieXstation-800x600 is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
 
 Mainly created for old x86 pc's with old gfx-card.
 
@@ -98,10 +136,28 @@ How to run :
 
 Make the program executable, dubbleclick and choose open in terminal.
 
-You can run it also directly from the terminal with : python retropieXstation-800x600.py
+You can run it also directly from the terminal with : 
 
-Or run it from the terminal with : ./retropieXstation-800x600.py
+```
+python retropieXstation-800x600.py
+```
 
+Or run it from the terminal with : 
+
+```
+./retropieXstation-800x600.py
+```
+
+With `uv`, if installed : 
+
+```
+uv run retropieXstation-800x600.py
+```
+
+or online :
+```
+curl https://raw.githubusercontent.com/FollyMaddy/retropieXstation/refs/heads/master/retropieXstation-800x600.py|uv run -
+```
 
 # use-vesa.conf
 
