@@ -97,7 +97,7 @@ uv run retropieXstation-verbose.py
 
 or online :
 ```
-curl https://raw.githubusercontent.com/FollyMaddy/retropieXstation/refs/heads/master/retropieXstation.py|uv run -
+curl https://raw.githubusercontent.com/FollyMaddy/retropieXstation/refs/heads/master/retropieXstation-verbose.py|uv run -
 ```
 
 #
