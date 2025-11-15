@@ -122,6 +122,8 @@ With this program you bypass this problem !
 
 - It changes back to the standard resolution if you stop the emulator.
 
+# Beware : It only works with Xorg, Wayland is not supported !
+
 #
 
 dependancies :
