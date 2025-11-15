@@ -61,7 +61,7 @@ retropieXstation-verbose is a program to start ROMS of RetroPie in verbose mode 
 
 Sometimes roms or emulators do not work. This program is created to find the problems.
 
-Beware : It only works with retroarch libretro cores and zip files are not supported !
+# Beware : It only works with retroarch libretro cores and zip files are not supported !
 
 #
 
