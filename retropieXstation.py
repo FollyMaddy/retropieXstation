@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "tk",
+# ]
+# ///
+
 #
-# Program : retropieXstation.py3
-# Version : 1.3
+# Program : retropieXstation.py
+# Version : 1.4
 # Use : 
 # retropieXstation is a simple program created to run allmost all ROMS of RetroPie from your windows desktop enviroment (X).
 # Dependencies : 
