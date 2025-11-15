@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "tk",
+# ]
+# ///
+
 #
-# Program : retropieXstation-verbose.py3
-# Version : 1
+# Program : retropieXstation-verbose.py
+# Version : 1.1
 # Use :
 # retropieXstation-verbose is a program to start ROMS of RetroPie in verbose mode from your windows desktop enviroment (X).
 # Sometimes roms or emulators do not work, This program is created to find the problems.
