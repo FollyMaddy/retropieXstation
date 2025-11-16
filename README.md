@@ -4,10 +4,6 @@
 
 #
 
-# Pyhthon3 versions should work now !
-
-#
-
 # retropieXstation.py (python3 version) python2/retropieXstation.py (python2.7 version)
 
 use :
@@ -21,6 +17,10 @@ dependancies :
 This program only works if RetroPie is installed on your computer.
 
 Also make sure you have installed the desired python-modules.
+
+Install th `tk` module if needed.
+
+Metadata has been added for running with `uv` and will automatically download `tk`.
 
 #
 
@@ -70,6 +70,10 @@ Dependencies :
 This program only works if RetroPie is installed on your computer.
 
 Also make sure you have installed the desired python-modules.
+
+Install th `tk` module if needed.
+
+Metadata has been added for running with `uv` and will automatically download `tk`.
 
 #
 
@@ -131,6 +135,10 @@ dependancies :
 This program only works if RetroPie is installed on your computer.
 
 Also make sure you have installed the desired python-modules.
+
+Install th `tk` module if needed.
+
+Metadata has been added for running with `uv` and will automatically download `tk`.
 
 #
 
